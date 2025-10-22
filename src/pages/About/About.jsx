@@ -1,5 +1,5 @@
 import React from "react";
-import "./About.css";
+import "./about.css";
 import profilePic from "../../assets/profilePic.png";
 // replace with your own image path
 
