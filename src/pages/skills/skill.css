@@ -1,0 +1,67 @@
+/* skill.css */
+
+.skills-section {
+  background-color: #0b0b0b;
+  color: #fff;
+  padding: 60px 20px;
+  min-height: 100vh;
+  background-image: url('https://www.transparenttextures.com/patterns/stardust.png');
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2rem;
+  color: #fdfdfd;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #fff7f7;
+  display: inline-block;
+  padding-bottom: 8px;
+}
+.section-title {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #bc0000;
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 20px;
+  padding: 20px 0;
+  justify-items: center;
+}
+
+.skill-card {
+  background-color: #1a1a1a;
+  border: 1px solid #333;
+  border-radius: 10px;
+  padding: 15px;
+  width: 120px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease;
+}
+
+.skill-card:hover {
+  transform: translateY(-5px);
+}
+
+.skill-img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.skill-name {
+  font-size: 0.9rem;
+  color: #ccc;
+}
