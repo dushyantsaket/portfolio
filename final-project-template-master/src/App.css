@@ -46,7 +46,7 @@ section {
     opacity: 1;
   }
 }
-
+background: var(--primary);
 @keyframes slideInUp {
   from {
     opacity: 0;
