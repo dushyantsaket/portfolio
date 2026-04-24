@@ -6,7 +6,7 @@ const Home = () => {
         <div className="hero-section">
             <div className="hero-content">
 
-                {/* LEFT */}
+                {/* LEFT */
                 <div className="hero-text">
 
                     <p className="hero-intro">👋 Hello, I'm</p>
